@@ -1,4 +1,4 @@
-# Coffee & Wifi
+# Philippine Cafe Database
 
 A Flask website that lists cafes in Makati with their coffee, wifi, and
 power outlet ratings, so you can find a good place to work.
@@ -15,7 +15,7 @@ power outlet ratings, so you can find a good place to work.
 * Flask and Flask-WTF / WTForms
 * Bootstrap-Flask
 * Jinja2
-* gunicorn. 
+* gunicorn
 
 Cafe data is stored in a CSV file.
 
@@ -27,6 +27,8 @@ Cafe data is stored in a CSV file.
 
 ## Known limitations / next steps
 - Cafes added through the form are saved to a CSV on the server's disk,
-  which resets when the free Render service restarts or redeploys.
-  Next step: move storage to a database with SQLAlchemy.
-- No login, so anyone can add a cafe. No edit or delete yet.
+  which resets as I am only on the free Render service.
+  - **Next step: move storage to a database with SQLAlchemy.**
+- No login, so anyone can add a cafe. No edit or delete entries yet.
+- Expansion beyond just Makati, will add more places into the database.
+- 
