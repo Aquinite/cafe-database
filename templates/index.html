@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block title %}Coffee and Wifi{% endblock %}
+
+{% block content %}
+
+<div class="d-flex justify-content-center align-items-center" style="min-height: 80vh">
+    <div class="container-fluid p-5 mb-4 bg-dark rounded-3 text-center">
+        <h1 class="display-1 text-white"> ☕️ Coffee & Wifi in Makati 💻</h1>
+        <p class="lead text-white">Want to work in a cafe but need power and wifi?</p>
+        <hr class="my-4 text-white">
+        <p class="text-white">You've found the right place! Checkout this collection of cafes with data on power socket availability, wifi speed and coffee quality.</p>
+        <a class="btn btn-warning btn-lg mx-3" href="{{ url_for('cafes') }}" role="button">List of Cafes</a>
+        <a class="btn btn-warning btn-lg mx-3" href="{{ url_for('add_cafe') }}" role="button">Add a New Cafe</a>
+    </div>
+</div>
+
+
+{% endblock %}
