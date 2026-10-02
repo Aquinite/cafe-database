@@ -31,4 +31,3 @@ Cafe data is stored in a CSV file.
   - **Next step: move storage to a database with SQLAlchemy.**
 - No login, so anyone can add a cafe. No edit or delete entries yet.
 - Expansion beyond just Makati, will add more places into the database.
-- 
