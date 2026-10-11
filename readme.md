@@ -3,7 +3,7 @@
 A Flask website that lists cafes in Makati with their coffee, wifi, and
 power outlet ratings, so you can find a good place to work.
 
-**Live site:** 
+**Live site:** https://cafedatabase.onrender.com
 
 ## Features
 - Browse all cafes in a table, with a Google Maps link for each
