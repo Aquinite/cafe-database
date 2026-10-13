@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}Error{% endblock %}
+
+{% block content %}
+
+<h1 class="text-white mt-3 text-center"> Your response could not be submitted due to an error.</h1>
+<p class="space-above mt-3 text-center"><a href="{{ url_for('add_cafe') }}"> Resubmit your response.</a></p>
+<p class="space-above mt-3 text-center"><a href="{{ url_for('home') }}">Return to the homepage.</a></p>
+<p class="space-above mt-3 text-center text-white"> {{ error }} </p>
+
+{% endblock %}
+
