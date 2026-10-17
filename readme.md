@@ -30,6 +30,8 @@ Cafe data is stored in a CSV file.
 5. run `python main.py` and open the development server.
 
 ## Known limitations / next steps
-- Add support for cafe descriptions, as well as fix formatting of opening and closing time to be combined into one column. 
+- Add support for cafe descriptions and images, as well as fix formatting of opening and closing time to be combined into one column. 
 - Add support for cafes that run 24 hours and allow this information to be collected into the form and displayed into the website.
+- Allow users to suggest edits and deletions of entries in the database through a form. 
+- Allow developers to be able to access data from the database through the use of an RESTful API. 
 - Expansion beyond just Makati, will add more places into the database.
